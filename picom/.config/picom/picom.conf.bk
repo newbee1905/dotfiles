@@ -1,0 +1,12 @@
+backend = "glx";
+
+blur:
+{   
+	size = 10;
+	deviation = 5.0;
+};
+
+opacity-rule = [
+  "90:class_g = 'st-256color' && focused",
+  "85:class_g = 'st-256color' && !focused",
+];
