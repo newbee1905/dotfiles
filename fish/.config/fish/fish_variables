@@ -1,0 +1,44 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
+SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_d:kitty\x20\x2bkitten\x20diff
+SETUVAR _fish_abbr_icat:kitty\x20\x2bkitten\x20icat
+SETUVAR _fish_abbr_ll:exa\x20\x2dFal
+SETUVAR _fish_abbr_ls:exa\x20\x2dFa
+SETUVAR _fish_abbr_ssh:kitty\x20\x2bkitten\x20ssh
+SETUVAR _fish_abbr_yeet:paru\x20\x2d\x2dcleanafter\x20\x2d\x2dskipreview\x20\x2d\x2dpacman\x20powerpill
+SETUVAR _fisher_AdamChristiansen_2F_vertical_2D_fish_files:/home/newbee/\x2econfig/fish/functions/__vertical_component_dir\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_component_duration\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_component_git_branch\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_component_git_status\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_component_jobs\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_component_prompt\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_component_vert\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_component_vi_mode\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_util_duration\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_util_is_git\x2efish\x1e/home/newbee/\x2econfig/fish/functions/__vertical_util_set\x2efish\x1e/home/newbee/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/home/newbee/\x2econfig/fish/functions/fish_prompt\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/newbee/\x2econfig/fish/functions/fisher\x2efish\x1e/home/newbee/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_40_32_2E_31_2E_30__files:/home/newbee/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/newbee/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/newbee/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/newbee/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/newbee/\x2econfig/fish/functions/nvm\x2efish\x1e/home/newbee/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/newbee/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish\x402\x2e1\x2e0\x1eAdamChristiansen/vertical\x2dfish
+SETUVAR --export fish_color_autosuggestion:6C6C6C
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR --export fish_color_command:green
+SETUVAR --export fish_color_comment:BCBCBC
+SETUVAR fish_color_cwd:73D0FF
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:F29E74
+SETUVAR --export fish_color_error:FF8700
+SETUVAR fish_color_escape:95E6CB
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_match:F28779
+SETUVAR --export fish_color_normal:FF8700
+SETUVAR fish_color_operator:FFCC66
+SETUVAR fish_color_param:FF8700
+SETUVAR fish_color_quote:BAE67E
+SETUVAR fish_color_redirection:D4BFFF
+SETUVAR fish_color_search_match:\x2d\x2dbackground\x3dFFCC66
+SETUVAR fish_color_selection:\x2d\x2dbackground\x3dFFCC66
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:normal
+SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/newbee/Documents/Scripts/chokegenerator\x2dnewbee\x1e/usr/bin\x1e/home/newbee/\x2esplashkit\x1e/home/newbee/Documents/Scripts/chokegenerator\x1e/home/newbee/\x2egem/ruby/3\x2e0\x2e0/bin\x1e/usr/lib/ruby/gems/3\x2e0\x2e0/bin\x1e/home/newbee/Documents/Scripts/kaomoji\x2drofi\x1e/home/newbee/\x2eemacs\x2ed/bin\x1e/opt/android\x2dsdk/tools\x1e/opt/android\x2dsdk/platform\x2dtools\x1e/home/newbee/go/bin\x1e/home/newbee/\x2elocal/share/gem/ruby/3\x2e0\x2e0/bin\x1e/home/newbee/\x2epoetry/bin\x1e/home/newbee/\x2edwm\x1e/home/newbee/Documents/Scripts\x1e/home/newbee/\x2ecargo/bin\x1e/home/newbee/\x2elocal/bin
