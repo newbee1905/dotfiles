@@ -1,0 +1,32 @@
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - lib/redmangadex/utils/string.rb
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/{rails,rake}'
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Layout/IndentationWidth:
+  Width: 1
+
+Layout/IndentationStyle:
+  EnforcedStyle: tabs
+
+Metrics/MethodLength:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
