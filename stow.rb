@@ -7,11 +7,11 @@ Dir
 		# puts "Linking #{dir}'s config..."
 		Dir.entries("./#{dir}").each do |file| 
 			next if file == "." || file == ".."
-			if File.directory?(File.join("/home/newbee", file))
-				`rm -rf /home/newbee/#{file}/#{dir}`
-			else
-				`rm /home/newbee/#{file}`
-			end
+			# if File.directory?(File.join("/home/newbee", file))
+			# 	`rm -rf /home/newbee/#{file}/#{dir}`
+			# else
+			# 	`rm /home/newbee/#{file}`
+			# end
 		end
-		`stow #{dir}`
+		`stow -t /home/newbee #{dir}`
 	end
