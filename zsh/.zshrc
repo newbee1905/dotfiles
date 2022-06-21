@@ -97,5 +97,5 @@ export FD_OPTIONS="--follow --exclude .git --exclude node_modules -E Library -E 
 #########
 ### Zlua
 #########
-eval "$(lua ~/Documents/Packages/z.lua/z.lua --init zsh enhanced once fzf)"
-source ~/Documents/Packages/czmod/czmod.zsh
+eval "$(luajit /shared/github.com/skywind3000/z.lua/z.lua --init zsh enhanced once fzf)"
+source /shared/github.com/skywind3000/czmod/czmod.zsh
