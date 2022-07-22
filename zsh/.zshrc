@@ -46,8 +46,6 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
-zinit light olets/zsh-abbr
-
 #########
 ### Theme
 #########
@@ -59,8 +57,20 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light unixorn/fzf-zsh-plugin
 zinit light Aloxaf/fzf-tab
 
-abbr add --force --quiet ll='exa -Fal'
-abbr add --force --quiet ls='exa -Fa'
+
+#########
+### Alias
+#########
+
+alias ll='exa -Fal'
+alias ls='exa -Fa'
+
+pastebin() {
+ curl -s https://oshi.at -F f=@$* -F expire=120 \
+ |sed -nE "s_DL: (.*)_\1_p" \
+ | xclip -selection c \
+ && print "Link copied to clipboard"
+}
 
 #########
 ### Less
